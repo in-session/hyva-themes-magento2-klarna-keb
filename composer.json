@@ -1,0 +1,27 @@
+{
+  "name": "hyva-themes/magento2-klarna-osm",
+  "description": "Hyvä Themes Compatibility module for Klarna_Osm",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "hyva-themes/magento2-compat-module-fallback": "*",
+    "klarna/module-osm": "*"
+  },
+  "authors": [{
+      "name": "Hyvä Themes B.V.",
+      "email": "info@hyva.io"
+  }],
+  "license": "see LICENSE.md",
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Hyva\\KlarnaOsm\\": "src/"
+    }
+  },
+  "conflict": {
+    "hyva-themes/magento2-klarna-onsitemessaging": "*",
+    "klarna/module-onsitemessaging": "*"
+  }
+}
