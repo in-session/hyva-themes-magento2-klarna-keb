@@ -4,9 +4,9 @@
     <type name="Hyva\CompatModuleFallback\Model\CompatModuleRegistry">
         <arguments>
             <argument name="compatModules" xsi:type="array">
-                <item name="hyva-magento2-klarna-kep" xsi:type="array">
-                    <item name="original_module" xsi:type="string">Klarna_Kep</item>
-                    <item name="compat_module" xsi:type="string">Hyva_KlarnaKep</item>
+                <item name="hyva-magento2-klarna-keb" xsi:type="array">
+                    <item name="original_module" xsi:type="string">Klarna_Keb</item>
+                    <item name="compat_module" xsi:type="string">Hyva_KlarnaKeb</item>
                 </item>
             </argument>
         </arguments>
