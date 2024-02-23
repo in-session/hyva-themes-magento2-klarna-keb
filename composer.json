@@ -1,11 +1,11 @@
 {
-  "name": "hyva-themes/magento2-klarna-kep",
-  "description": "Hyvä Themes Compatibility module for Klarna_Kep",
+  "name": "hyva-themes/magento2-klarna-keb",
+  "description": "Hyvä Themes Compatibility module for Klarna_Keb",
   "type": "magento2-module",
   "require": {
     "magento/framework": "*",
     "hyva-themes/magento2-compat-module-fallback": "*",
-    "klarna/module-kep": "*"
+    "klarna/module-keb": "*"
   },
   "authors": [{
       "name": "Hyvä Themes B.V.",
@@ -17,7 +17,7 @@
       "src/registration.php"
     ],
     "psr-4": {
-      "Hyva\\KlarnaKep\\": "src/"
+      "Hyva\\KlarnaKeb\\": "src/"
     }
   }
 }
