@@ -8,4 +8,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Hyva_KlarnaKep', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Hyva_KlarnaKeb', __DIR__);
